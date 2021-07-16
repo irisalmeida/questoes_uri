@@ -1,0 +1,21 @@
+#1050
+telefone = int(input())
+
+if telefone == 61:
+    print("Brasilia")
+elif telefone == 71:
+    print("Salvador")
+elif telefone == 11:
+    print("Sao Paulo")
+elif telefone == 21:
+    print("Rio de Janeiro")
+elif telefone == 32:
+    print("Juiz de Fora")
+elif telefone == 19:
+    print("Campinas")
+elif telefone == 27:
+    print("Vitoria")
+elif telefone == 31:
+    print("Belo Horizonte")
+else:
+    print("DDD nao cadastrado")
