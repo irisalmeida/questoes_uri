@@ -1,0 +1,13 @@
+#1010(com o map, que não pode)
+valores = input().split()
+valores = list(map(float, valores))
+codigo1,pecas1,valor1 = valores
+
+valores = input().split()
+valores = list(map(float, valores))
+codigo2,pecas2,valor2 = valores
+
+pagar = pecas1 * valor1 + pecas2 * valor2 
+
+
+print(f"VALOR A PAGAR: R$ {pagar:.2f}")
