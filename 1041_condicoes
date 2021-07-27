@@ -1,0 +1,20 @@
+#1041
+valores = input().split(" ")
+
+# x = float(valores[0])
+# y = float(valores[1])
+
+if float(valores[0]) == 0 and float(valores[1]) == 0:
+    print("Origem")
+elif float(valores[0])==0:
+    print("Eixo Y")
+elif float(valores[1]) ==0:
+    print("Eixo X")
+elif float(valores[0]) >= 0 and float(valores[1]) >= 0:
+    print("Q1")
+elif float(valores[0]) <= 0 and float(valores[1]) >= 0:
+    print("Q2")
+elif float(valores[0]) <= 0 and float(valores[1]) <= 0:
+    print("Q3")
+else:
+    print("Q4")
