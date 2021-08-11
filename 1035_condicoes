@@ -1,0 +1,14 @@
+#1035
+valores = input().split()
+
+A = float(valores[0])
+B = float(valores[1])
+C = float(valores[2])
+D = float(valores[3])
+
+if ((B > C) and (D > A)) and ((C + D) > (A + B)) and (C >0 and D > 0) and (A % 2 == 0):
+    mensagem = "Valores aceitos"
+else:
+    mensagem = "Valores nao aceitos"
+    
+print(mensagem)
