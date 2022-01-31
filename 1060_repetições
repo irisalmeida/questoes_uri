@@ -1,0 +1,8 @@
+#1060(não passou nos testes ainda)
+
+cont=0
+for i in range(6):
+    valores = float(input())
+    if valores > 0:
+        cont+=1
+print(f"{cont} valores positivos")
