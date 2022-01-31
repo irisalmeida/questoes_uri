@@ -1,4 +1,4 @@
-#1060(não passou nos testes ainda)
+#1060
 
 cont=0
 for i in range(6):
