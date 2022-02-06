@@ -1,0 +1,7 @@
+#1073
+
+num = int(input())
+for num_par in range(1,num + 1):
+    if num_par % 2 == 0:
+      elevado = num_par ** 2
+      print(f'{num_par}^2 = {elevado}')
