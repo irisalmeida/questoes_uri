@@ -1,0 +1,10 @@
+#1070
+valor = int(input())
+lista = []
+
+for i in range(6 * 2):
+  lista.append(valor + i)
+
+for i in range(len(lista)):
+  if lista[i] % 2 != 0:
+    print(lista[i])
