@@ -1,0 +1,15 @@
+#1080
+lista = []
+
+for i in range(100):
+  num = int(input())
+  lista.append(num)
+
+maior = lista[0]
+for i in range(len(lista)):
+  if lista[i] > maior:
+    maior = lista[i]
+    posicao = i
+
+print(maior)
+print(posicao + 1) 
